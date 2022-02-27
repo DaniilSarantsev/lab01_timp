@@ -44,12 +44,13 @@ mv boost_1_69_0/boost_output ~/boost-libs
  
  ПУНКТ 10.
  Подсчитать, сколько занимает дискового пространства каждый файл в этой директории.
-du -h .
-<img width="1440" alt="1" src="https://user-images.githubusercontent.com/91692911/155845697-21549f7a-a7e5-4bfe-a192-5261c19e2491.png">
+ls -s 
+![1](https://user-images.githubusercontent.com/91692911/155890552-6daaa327-f6c2-4ffc-a490-99dad415a126.png)
+
 
  ПУНКТ 11.
  Найти топ10 самых "тяжёлых".
- <img width="1440" alt="1" src="https://user-images.githubusercontent.com/91692911/155851196-8dfb85f1-c27d-49b0-9944-dd91d1c8f2d5.png">
- du -h . | sort -rh  | head -n 10
- 
+ ls -sh -S
+ ![2](https://user-images.githubusercontent.com/91692911/155890557-c93837b2-d463-4cf1-ade0-1ca24a71abea.png)
+
   
