@@ -7,7 +7,7 @@ wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.
 
 ПУНКТ 2.
 Разархивация скаченного файла в директорию ~/boost_1_69_0
-tar -xf boost_1_69_0.tar.gz
+tar -x boost_1_69_0.tar.gz
 
 ПУНКТ 3.
 Подсчёт количества файлов в директории ~/boost_1_69_0 не включая вложенные директории.
